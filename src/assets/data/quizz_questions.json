@@ -1,55 +1,61 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Qual super-herói você seria?",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Qual dessas qualidades define mais você?",
+      "options": [
+        { "id": 1, "name": "Coragem e liderança", "alias": "A" },
+        { "id": 2, "name": "Inteligência estratégica", "alias": "B" },
+        { "id": 3, "name": "Compaixão e justiça", "alias": "C" },
+        { "id": 4, "name": "Determinação e senso de responsabilidade", "alias": "D" }
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "O que você faria ao ganhar superpoderes de repente?",
+      "options": [
+        { "id": 1, "name": "Usaria para inspirar e proteger o mundo", "alias": "A" },
+        { "id": 2, "name": "Criaria planos para combater o crime com estratégia", "alias": "B" },
+        { "id": 3, "name": "Lutaria por justiça e igualdade", "alias": "C" },
+        { "id": 4, "name": "Usaria para proteger minha cidade e meus entes queridos", "alias": "D" }
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Qual dessas fraquezas você mais se identifica?",
+      "options": [
+        { "id": 1, "name": "Ser sensível demais aos outros", "alias": "A" },
+        { "id": 2, "name": "Confiar apenas em mim mesmo", "alias": "B" },
+        { "id": 3, "name": "Assumir a dor do mundo como minha", "alias": "C" },
+        { "id": 4, "name": "Sentir culpa por não salvar todos", "alias": "D" }
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "Qual seria seu traje ideal?",
+      "options": [
+        { "id": 1, "name": "Um uniforme com capa e emblema icônico", "alias": "A" },
+        { "id": 2, "name": "Um traje cheio de tecnologia e gadgets", "alias": "B" },
+        { "id": 3, "name": "Armadura poderosa e simbólica", "alias": "C" },
+        { "id": 4, "name": "Algo leve, ágil e com máscara", "alias": "D" }
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Escolha um lema para seguir:",
+      "options": [
+        { "id": 1, "name": "\"Com grandes poderes vêm grandes responsabilidades\"", "alias": "D" },
+        { "id": 2, "name": "\"A verdade e a justiça prevalecerão\"", "alias": "A" },
+        { "id": 3, "name": "\"Eu sou a noite. Eu sou a justiça.\"", "alias": "B" },
+        { "id": 4, "name": "\"Lutar por quem não pode se defender\"", "alias": "C" }
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "A": "Você seria o Superman — nobre, inspirador e sempre pronto para salvar o mundo!",
+    "B": "Você seria o Batman — inteligente, sombrio e estrategista, sempre preparado.",
+    "C": "Você seria a Mulher-Maravilha — guerreira, justa e com um coração cheio de compaixão.",
+    "D": "Você seria o Homem-Aranha — rápido, esperto e com um enorme senso de responsabilidade!"
   }
 }
